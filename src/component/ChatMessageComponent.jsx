@@ -21,6 +21,7 @@ export default function ChatMessageComponent({ chatMessages }) {
                     key={message.id}
                     text={message.message}
                     avatar={message.avatar}
+                    time={message.time}
                 />
             ))}
         </div>
